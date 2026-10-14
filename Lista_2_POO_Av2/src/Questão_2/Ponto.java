@@ -132,7 +132,7 @@ public class Ponto {
 
         // INTANCIAR O NOVO OBJETO QUE É UM PONTO DE INTERSSEÇÃO
         Ponto pontoDeIntercecao = new Ponto(xDessePonto,yDessePonto);
-
+		
 
         // RETORNAR
         return pontoDeIntercecao;

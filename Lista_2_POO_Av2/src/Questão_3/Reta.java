@@ -82,11 +82,6 @@ public class Reta {
             System.out.print("Se interceptando em UM PONTO");
             System.out.print("a1 == a2 / b1 e b2 tanto faz");
 
-            // INSTANCIEI UM OBJETO E DISSEO QUE ELE RECEBE UMA CALCULADORA DE PONTO DE INTERCEPÇÃO DA CLASSE PONTO
-            Ponto pontoDeIntercecao = Ponto.CalcularPontoIntercepcaoDuasRetas(r, s);
-            System.out.print("Sendo esse ponto (" + pontoDeIntercecao.getAbcissaX() + " , " + pontoDeIntercecao.getOrdenadaY() + ")");
-
-
         } else {
 
             if (r.getCoeficienteLinear() == s.getCoeficienteLinear()){
