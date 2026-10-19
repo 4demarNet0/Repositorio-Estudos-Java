@@ -1,6 +1,6 @@
-package Questão_2;
+package Questao_2;
 
-import Questão_3.Reta;
+import Questao_3.Reta;
 
 public class Ponto {
 	
@@ -132,7 +132,7 @@ public class Ponto {
 
         // INTANCIAR O NOVO OBJETO QUE É UM PONTO DE INTERSSEÇÃO
         Ponto pontoDeIntercecao = new Ponto(xDessePonto,yDessePonto);
-
+		
 
         // RETORNAR
         return pontoDeIntercecao;
