@@ -1,6 +1,6 @@
-package Questão_2;
+package Questao_2;
 
-import Questão_3.Reta;
+import Questao_3.Reta;
 
 public class Ponto {
 	

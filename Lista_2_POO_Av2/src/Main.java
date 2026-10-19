@@ -1,5 +1,5 @@
-import Questão_2.Ponto;
-import Questão_3.Reta;
+import Questao_2.Ponto;
+import Questao_3.Reta;
 
 
 public class Main {
@@ -21,7 +21,7 @@ public class Main {
         Ponto pontoCoincidente = Ponto.CalcularPontoIntercepcaoDuasRetas(retaR, retaS);
         System.out.println("X =" + pontoCoincidente.getAbcissaX() + "/ Y =" + pontoCoincidente.getOrdenadaY());
 
-
+        retaR.ClassificacaoDuasRetas(retaS);
 
 
 

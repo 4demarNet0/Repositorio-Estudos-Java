@@ -1,5 +1,5 @@
-package Questão_3;
-import Questão_2.Ponto;
+package Questao_3;
+import Questao_2.Ponto;
 
 public class Reta {
     
@@ -74,25 +74,25 @@ public class Reta {
 
     }
 
-    public static void ClassificacaoDuasRetas(Reta r, Reta s){
+    public void ClassificacaoDuasRetas(Reta s){
 
-        if (r.getCoeficienteAngular() != s.getCoeficienteAngular()){
+        if (this.coeficienteAngularA != s.getCoeficienteAngular()){
 
-            System.out.print("Essas Retas tem DIREÇÕES DIFERENTES");
-            System.out.print("Se interceptando em UM PONTO");
-            System.out.print("a1 == a2 / b1 e b2 tanto faz");
+            System.out.println("Essas Retas tem DIREÇÕES DIFERENTES");
+            System.out.println("Se interceptando em UM PONTO");
+            System.out.println("a1 == a2 / b1 e b2 tanto faz");
 
         } else {
 
-            if (r.getCoeficienteLinear() == s.getCoeficienteLinear()){
+            if (this.coeficienteLinearB == s.getCoeficienteLinear()){
 
-                System.out.print("Essas Retas são COINCIDENTES (INFINITOS PONTOS EM COMUM)");
-                System.out.print("a1 == a2 / b1 == b2");
+                System.out.println("Essas Retas são COINCIDENTES (INFINITOS PONTOS EM COMUM)");
+                System.out.println("a1 == a2 / b1 == b2");
 
             } else {
 
-                System.out.print("Essas Retas são PARALELAS (NUNCA TERÃO UM PONTO EM COMUM)");
-                System.out.print("a1 == a2 / b1 == b2");
+                System.out.println("Essas Retas são PARALELAS (NUNCA TERÃO UM PONTO EM COMUM)");
+                System.out.println("a1 == a2 / b1 == b2");
 
             }
         
